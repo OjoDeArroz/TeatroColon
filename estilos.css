@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:"Roboto";
+  src: url(fuentes/Roboto-Light.ttf);
+}
+@font-face {
+  font-family:"Gotham";
+  src: url(fuentes/Gotham\ Ultra.otf);
+}
+
+h1,h2,h3{
+  font-family: "Gotham";
+}
+
+h3{
+  color: #7f5af0;
+}
+
+h2{
+  color: #FF8906;
+}
+
+.titulo{
+  font-family: "Gotham";
+}
+
+p{
+  font-family: "Roboto";
+}
+
+nav{
+  font-family: "Gotham";
+}
+
+.nav-link{
+  color: #7f5af0;
+}
+
+hr{
+  border: 2px solid  #000
+}
+
+.card{
+  background-color: #fff9f3;
+  color: #252525;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.579);
+}
+.blanco{
+  color: #ffffff;
+}
+
+.logo{
+    width: 6.25rem;
+}
+
+.d-item{
+  height: 50rem;
+  
+}
+
+.d-item2{
+  height: 28.125rem;
+}
+
+.d-img{
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.d-img2{
+  height: 100%;
+  object-fit: cover;
+}
+
+.masmargen{
+  margin-top: 3.125rem;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 48rem) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 0.0625rem 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #7f5af0;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+.parallax-header {
+ background: #000;
+ background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)
+            ),
+            url(img/teatro_colon_interior.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+.header-content {
+  padding: 12.5rem 0 9.375rem 0;
+}
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background: #252525;
+  color: #f9f9f9;
+}
+
+footer article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 3.125rem 2.5rem;
+  margin: -6.188rem 1.25rem 1.25rem;
+  border-radius: 0.625rem;
+  background: linear-gradient(90deg, #0a1536, #7f5af0);
+}
+
+footer article h2 {
+  font-weight: 400;
+  color: rgb(255, 255, 255)
+}
+
+footer article button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.625rem;
+  padding: 0 2.5rem 0 2.75rem;
+  width: 100%;
+  background: #0a1536;
+  border: 0;
+  border-radius: 1.875rem;
+  color: #f9f9f9;
+  font-size: 1rem;
+}
+
+footer section {
+  padding: 0 3.125rem;
+}
+
+section.top {
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+section.top img {
+  display: block;
+  height: 1.875rem;
+  margin: 0 0 1.875rem;
+}
+
+section.top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1.875rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (width > 30rem) {
+  footer article button {
+    width: 70%;
+  }
+
+  section.top ul {
+    padding-right: 10%;
+  }
+}
+
+@media (width > 37.5rem) {
+  footer article {
+    flex-direction: row;
+    min-height: 8.75rem;
+    margin: -4.375rem 1.25rem 1.25rem;
+    padding: 1.875rem 3.125rem 3.125rem;
+  }
+
+  footer article button {
+    width: auto;
+    padding: 0 1.25rem 0 1.5rem;
+  }
+
+  section.top ul {
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 0;
+  }
+}
+
+section.top ul li a {
+  display: block;
+  margin-bottom: 0.625rem;
+  color: rgb(255 255 255 / 90%);
+}
+
+section.top h3 {
+  color: rgba(255, 255, 255, 0.892);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.063rem;
+}
+
+section.bottom {
+  padding-top: 0.625rem;
+  border-top: 0.125rem solid rgb(255 255 255 / 10%);
+  color: rgb(255, 255, 255);
+  font-size: 0.813rem;
+}
+.acustica {
+  padding-bottom: 6.25rem;
+}
+
+/* nav */
+
+.nav-item .nav-link {
+  position: relative;
+}
+
+.nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Ajusta la posición de la línea según tu preferencia */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FF8906; /* Cambia el color de la línea según tu preferencia */
+  transition: width 0.3s ease; /* Efecto de transición al expandir la línea */
+}
+
+.nav-item .nav-link:hover::after {
+  width: 100%;
+}
+.grayscale .img-fluid {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra paralela */
+  border-radius: 10px;
+  filter: grayscale(100%); /* Convierte la imagen a blanco y negro */
+  transition: all 400ms ease; /* Agrega una transición para el efecto suave */
+  height: auto;
+  cursor: default;
+}
+.grayscale .img-fluid:hover {
+  filter: grayscale(0%);
+  transform: translateY(-3%);
+}
+/*oooooooooooooooooooooo*/
+.teatro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.teatro2 {
+   font-weight:bold; font-size:3em;
+  
+  animation-name: focus-in-contract;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+    
+  /* shorthand
+  animation: focus-in-contract 1s linear 0s 1 normal none;*/
+}
+@keyframes focus-in-contract {
+			
+  0% {
+    letter-spacing:1em;
+    filter:blur(12px);
+    opacity:0;
+  }
+  100% {
+    filter:blur(0);
+    opacity:1;
+  }
+}
+.loading::after{
+  top: 0;
+}
+.cardpadding{
+  padding-bottom: 50px;
+}
+.cardpadding2 {
+  padding-top: 150px;
+}
